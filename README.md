@@ -1,5 +1,6 @@
 # VS_Assignment14_Plotly
 
+![Bacteria by filterforge.com](Images/bacteria.jpg)
 
 ## **Project Parts:**
 (1) Background Images: WebScrappingTitlePage.jpg\
