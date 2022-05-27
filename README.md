@@ -16,7 +16,7 @@
 ## **Project Description & Background:**
 Various microbes colonize human navels and the Belly Button Biodiversity dataset catalogs/ reveals some microbial species (or operational taxonomic units OTUs), were present in >70% of people and other OTUs were quite rare.
 
-Dataset: https://nazzy88.github.io/Belly-Button-Biodiversity/
+Dataset: [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/)
 
 ## **Project Charter:**
 (1) Display script from repository\
