@@ -1,22 +1,17 @@
-//Connect all using a dropdown
-//function barchart()
-//function bublechart
-//function Metadata
-//function looksdropdown(this.value)
-// {
-// barchart(this.value)
-// bublechart(this.value)
-// Metadata(this.value)
-// }
+// Assignment approach: 
+// i) create barchart() then bubblechart() then metadata table,
+// ii) create dropdown(this.value), 
+// iii) connect charts to dropdown;
 
+// Connect to data sample.json file and use GoLive Server to comply with CORS policy
 // d3.json("samples.json").then(function(data) {
 //   samples = data.samples
 //   console.log(samples[0].id)
 //   console.log(samples[0].otu_ids)
 //   console.log(samples[0].sample_values)
+// })
 
-
-//function barchart()
+// Creating function barchart()
 function create_barchart(x) {
     d3.json("samples.json").then(function (data) {
         samples = data.samples
@@ -29,51 +24,47 @@ function create_barchart(x) {
 
         console.log(otu_ids)
 
-        var data = [
+        var tracebar = 
             {
                 y: otu_ids.slice(0, 10),
                 x: filtered_data[0].sample_values.slice(0, 10),
                 type: 'bar',
                 orientation: 'h',
+                text: filtered_data[0].otu_labels.slice(0, 10),
+            };
+        var bardata = [tracebar]
+        var barlayout = {
+            title: 'Top 10 OTUs Found in Subject ID',
+            showlegend: false,
+            height: 400,
+            width: 500
+        };
+        Plotly.newPlot('bar', bardata, barlayout);
+
+        var tracebubble =
+        {
+            y: filtered_data[0].sample_values.slice(0, 10),
+            x: filtered_data[0].otu_ids.slice(0, 10),
+            text: otu_ids.slice(0, 10),
+            mode: 'markers',
+            marker: 
+            {
+                size: filtered_data[0].sample_values.slice(0, 10),
+                color: filtered_data[0].otu_ids.slice(0, 10)
             },
-        ];
-        Plotly.newPlot('bar', data);
+            text: filtered_data[0].otu_labels.slice(0, 10)
+        };
+        var bubbledata = [tracebubble]
+        var layout = {
+            title: 'Top 10 OTUs Found in Test Subject ID No, Selected',
+            showlegend: false,
+            height: 600,
+            width: 1200
+        };
+        Plotly.newPlot('bubble', bubbledata, layout);
+
     })
 }
-
-//function bublechart()
-// function create_barchart(x) {
-//     d3.json("samples.json").then(function (data) {
-//         samples = data.samples
-//         filtered_data = samples.filter(value => value.id === x)
-
-//         console.log(filtered_data)
-
-//         otu_ids = filtered_data[0].otu_ids
-//         otu_ids = otu_ids.map(x => `OTU ${x}`)
-
-//         console.log(otu_ids)
-
-//         var trace1 = {
-//             y: filtered_data[0].sample_values.slice(0, 10),
-//             x: filtered_data[0].otu_ids.slice(0, 10),
-//             text: otu_ids.slice(0, 10),
-//             mode: 'markers',
-//             marker: {
-//                 size: filtered_data[0].sample_values.slice(0, 10)
-//             }
-//             var data = [trace1]
-//             var layout = {
-//                 title: 'Marker Size',
-//                 showlegend: false,
-//                 height: 600,
-//                 width: 600
-//             };
-//             Plotly.newPlot('bubble', data, layout);
-//         };
-//     })
-// }
-
 
 function populate_selecttag() {
     d3.json("samples.json").then(function (data) {

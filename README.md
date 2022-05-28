@@ -7,9 +7,9 @@
 \
 (2) Content:\
 (2a) index.html\
-(2b) app.py\
-(2c) plots.js\
-(2d) css\
+(2b) app.js\
+(2c) samples.json\
+(2d) bonus.js\
 \
 (3) Resources folder contains website data:\
 (3a) Resources
