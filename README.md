@@ -1,6 +1,6 @@
 # VS_Assignment15_Plotly
 
-![TitlePage](\PlotlyTitlePage.jpg)
+![PlotlyTitlePage](\PlotlyTitlePage.jpg)
 
 ## **Project Parts:**
 (1) Background Images: WebScrappingTitlePage.jpg\
@@ -12,7 +12,7 @@
 (2d) css\
 \
 (3) Resources folder contains website data:\
-(3a) Resources\
+(3a) Resources
 
 ## **Project Description & Background:**
 Various microbes colonize human navels and the Belly Button Biodiversity dataset catalogs/ reveals some microbial species (or operational taxonomic units OTUs), were present in >70% of people and other OTUs were quite rare.
@@ -30,7 +30,7 @@ Dataset: [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/bell
 (3) Plotly\
 (4) Bootstrap\
 (5) CSS\
-(6) JSON\
+(6) JSON
 
 ## **Observations:**
 Charts are interactive to help explore the dataset. Select an item in the dropdown menu and see the results.
