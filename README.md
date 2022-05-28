@@ -36,7 +36,7 @@ Dataset: [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/bell
 Charts are interactive to help explore the dataset. Select an item in the dropdown menu and see the results.
 \
 Bubble chart shows the range of microbial species found. \
-Hovering over each bubble provides for further details. (for better experience, select “Show closest data on hover” tool from a top right corner of a chart). \
+Hovering over each bar or bubble provides for further details. \
 \
 Bar chart shows 10 dominant microbial species. Hover over each bar for further details.
 
