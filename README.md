@@ -1,6 +1,6 @@
 # VS_Assignment15_Plotly
 
-![TitlePage](PlotlyTitlePage.jpg)
+![TitlePage](\PlotlyTitlePage.jpg)
 
 ## **Project Parts:**
 (1) Background Images: WebScrappingTitlePage.jpg\
@@ -13,7 +13,7 @@
 \
 (3) Resources folder contains website data:\
 (3a) Resources\
-\
+
 ## **Project Description & Background:**
 Various microbes colonize human navels and the Belly Button Biodiversity dataset catalogs/ reveals some microbial species (or operational taxonomic units OTUs), were present in >70% of people and other OTUs were quite rare.
 
