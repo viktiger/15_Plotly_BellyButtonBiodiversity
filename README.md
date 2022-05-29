@@ -1,6 +1,6 @@
 # VS_Assignment15_Plotly
 
-![PlotlyTitlePage](Images/PlotlyTitlePage.jpg)
+![PlotlyTitlePage](Images/PlotlyTitlePage.JPG)
 
 ## **Project Parts:**
 (1) Background Images: PlotlyTitlePage.jpg\
