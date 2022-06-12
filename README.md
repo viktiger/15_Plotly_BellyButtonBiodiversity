@@ -1,4 +1,4 @@
-# VS_Assignment15_Plotly
+# 15_Plotly
 
 ## **Project Parts:**
 (1) Background Images: PlotlyTitlePage.jpg\
