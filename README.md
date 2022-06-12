@@ -15,7 +15,7 @@ Dataset: [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/bell
 
 ## **Project Charter:**
 (1) Display script from repository\
-(2) Display website https://viktiger.github.io/VS_Assignment15_Plotly/
+(2) Display website https://viktiger.github.io/15_Plotly/
 
 ## **Coding Languages:**
 (1) Javascript\
